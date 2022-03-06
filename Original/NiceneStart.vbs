@@ -1,0 +1,5 @@
+dim inputnum = Input.Find("variables.gtzip").Text("AudioNicene.Text")
+'API.Function("ScriptStart",,"allAudioOff")
+'sleep(200)
+API.Function("AudioOn",Input:=inputnum)
+'API.Function("OverlayInput1","Affirmation of Faith")

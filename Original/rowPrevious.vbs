@@ -1,0 +1,5 @@
+API.Function("DataSourcePreviousRow",Value:="Responses,pop")
+API.Function("DataSourcePreviousRow",Value:="Responses,psalm")
+API.Function("DataSourcePreviousRow",Value:="Responses,hymns")
+API.Function("DataSourcePreviousRow",Value:="Responses,prayers")
+API.Function("DataSourcePreviousRow",Value:="Responses,affirmation")

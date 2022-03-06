@@ -1,0 +1,5 @@
+dim micInput = Input.Find("variables.gtzip").Text("AudioOpening.Text")
+dim cameraInput as string = Input.Find("variables.gtzip").Text("CameraOpening.Text")
+API.Function("OverlayInput1Off")
+API.Function("AudioOn",micInput)
+API.Function("Merge",cameraInput)

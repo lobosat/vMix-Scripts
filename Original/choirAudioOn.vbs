@@ -1,0 +1,8 @@
+dim solo = Input.Find("variables.gtzip").Text("micSolo.Text")
+dim choir1 = Input.Find("variables.gtzip").Text("micChoir1.Text")
+dim choir2 = Input.Find("variables.gtzip").Text("micChoir2.Text")
+dim choir3 = Input.Find("variables.gtzip").Text("micChoir3.Text")
+API.Function("AudioOn",Input:=solo)
+API.Function("AudioOn",Input:=choir1)
+API.Function("AudioOn",Input:=choir2)
+API.Function("AudioOn",Input:=choir3)

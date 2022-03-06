@@ -1,0 +1,6 @@
+dim mic as string = Input.Find("variables.gtzip").Text("AudioEucharist.Text")
+dim camera as string = Input.Find("variables.gtzip").Text("CameraClosing.Text")
+API.Function("ScriptStart",,"allAudioOff")
+Sleep(300)
+API.Function("AudioOn",Input:=mic)
+API.Function("Fade",Input:=camera)
